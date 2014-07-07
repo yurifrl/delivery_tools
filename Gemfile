@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
 
-gem 'sinatra'
-gem 'sinatra-activerecord'
+gem 'activerecord', require: 'active_record'
 gem 'grape'
 gem 'pg'
 gem 'rake'
