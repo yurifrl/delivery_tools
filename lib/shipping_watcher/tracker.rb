@@ -1,3 +1,5 @@
+require 'sinatra/activerecord'
+require 'foreigner'
 require_relative 'shipper'
 require_relative 'status'
 require_relative 'tracker_log'
@@ -58,5 +60,4 @@ class Tracker < ActiveRecord::Base
       errors.add(:url, 'is not valid')
     end
   end
-
 end

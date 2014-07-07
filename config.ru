@@ -1,2 +1,2 @@
 require './lib/shipping_watcher'
-run ShippingWatcher
+run ShippingWatcher::API
