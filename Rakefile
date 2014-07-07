@@ -1,6 +1,13 @@
 #!/usr/bin/env rake
-
+require File.expand_path('../environment', __FILE__)
 require File.expand_path('../lib/shipping_watcher', __FILE__)
+
+task :rails_env do
+end
+
+task :environment do
+end
+
 module Rails
   def self.config
     require 'erb'
