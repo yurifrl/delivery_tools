@@ -1,6 +1,8 @@
 require 'correios-frete'
 
 class Calculator
+  attr_accessor :cep_origem, :cep_destino, :peso, :comprimento, :largura, :altura
+
   @cep_origem
   @cep_destino
   @peso
