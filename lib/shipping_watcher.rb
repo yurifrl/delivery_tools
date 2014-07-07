@@ -5,7 +5,6 @@ require 'json'
 #require_relative '../config/database.rb'
 require_relative 'shipping_watcher/tracker'
 require_relative 'shipping_watcher/calculator'
-
 # /noinspection RubyJumpError
 # /noinspection ALL
 class ShippingWatcher < Sinatra::Base
