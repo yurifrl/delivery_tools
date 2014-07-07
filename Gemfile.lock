@@ -1,0 +1,102 @@
+GIT
+  remote: git://github.com/yurifrl/correios-frete.git
+  revision: 542bcf7bae0fb60fbd5380ed081210d59777392e
+  specs:
+    correios-frete (1.9.0)
+      log-me (~> 0.0.6)
+      nokogiri (~> 1.6.1)
+      sax-machine (~> 0.2.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.1.2)
+      activesupport (= 4.1.2)
+      builder (~> 3.1)
+    activerecord (4.1.2)
+      activemodel (= 4.1.2)
+      activesupport (= 4.1.2)
+      arel (~> 5.0.0)
+    activesupport (4.1.2)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    arel (5.0.1.20140414130214)
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    bond (0.5.1)
+    builder (3.2.2)
+    coderay (1.1.0)
+    correios-sro-xml (0.2.1)
+      log-me (= 0.0.6)
+      nokogiri (~> 1.6)
+      sax-machine (~> 0.2.1)
+    debug_inspector (0.0.2)
+    erubis (2.7.0)
+    foreigner (1.6.1)
+      activerecord (>= 3.0.0)
+    i18n (0.6.9)
+    json (1.8.1)
+    log-me (0.0.6)
+    mini_portile (0.6.0)
+    minitest (5.3.5)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
+    pg (0.17.1)
+    rack (1.5.2)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.3.2)
+    ripl (0.7.1)
+      bond (~> 0.5.1)
+    ripl-multi_line (0.3.1)
+      ripl (>= 0.3.6)
+    ripl-rack (0.2.1)
+      rack (>= 1.0)
+      rack-test (~> 0.6.2)
+      ripl (>= 0.7.0)
+    sax-machine (0.2.1)
+      nokogiri (~> 1.6.0)
+    shotgun (0.9)
+      rack (>= 1.0)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-activerecord (2.0.2)
+      activerecord (>= 3.2)
+      sinatra (~> 1.0)
+    thread_safe (0.3.4)
+    tilt (1.4.1)
+    tux (0.3.0)
+      ripl (>= 0.3.5)
+      ripl-multi_line (>= 0.2.4)
+      ripl-rack (>= 0.2.0)
+      sinatra (>= 1.2.1)
+    tzinfo (1.2.1)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  better_errors
+  binding_of_caller
+  correios-frete!
+  correios-sro-xml
+  foreigner
+  json
+  pg
+  rack-test
+  rake
+  shotgun
+  sinatra
+  sinatra-activerecord
+  tux
