@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'foreigner'
 require 'json'
-require_relative '../config/database.rb'
+#require_relative '../config/database.rb'
 require_relative 'shipping_watcher/tracker'
 require_relative 'shipping_watcher/calculator'
 
