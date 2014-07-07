@@ -43,6 +43,14 @@ class ShippingWatcher < Sinatra::Base
 
   post '/zip' do
     content_type :json
-    Calculator.compute.to_json
+    calc = Calculator.new do |calc|
+      calc.cep_origem  = params[:zip][:cep_origem]
+      calc.cep_destino = params[:zip][:cep_destino]
+      calc.peso        = params[:zip][:peso]
+      calc.comprimento = params[:zip][:comprimento]
+      calc.largura     = params[:zip][:largura]
+      calc.altura      = params[:zip][:altura]
+    end
+    calc.compute.to_json
   end
 end
