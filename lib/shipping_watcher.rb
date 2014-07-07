@@ -9,7 +9,7 @@ module ShippingWatcher
   class API < Grape::API
     format :json
 
-    post '/' do
+    post  do
       obj = Tracker.where(code: params[:tracking_code]).first
 
       if params[:action] == '1' && !obj.nil?
