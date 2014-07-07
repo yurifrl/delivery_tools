@@ -1,4 +1,3 @@
-require 'sinatra/activerecord'
 require 'foreigner'
 require_relative 'shipper'
 require_relative 'status'

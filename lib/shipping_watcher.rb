@@ -1,4 +1,3 @@
-require 'sinatra'
 require 'grape'
 
 require_relative 'shipping_watcher/tracker'
@@ -8,8 +7,11 @@ require_relative 'shipping_watcher/calculator'
 # /noinspection ALL
 module ShippingWatcher
   class API < Grape::API
-    version 'v1'
     format :json
+
+    get '/hello' do
+      {hello: "world"}
+    end
 
     post '/' do
       obj = Tracker.where(code: params[:tracking_code]).first
