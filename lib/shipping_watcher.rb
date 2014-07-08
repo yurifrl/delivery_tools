@@ -7,7 +7,6 @@ require_relative 'shipping_watcher/calculator'
 # /noinspection ALL
 module ShippingWatcher
   class API < Grape::API
-    header 'Access-Control-Allow-Origin', '*'
     format :json
 
     post  do
@@ -42,6 +41,7 @@ module ShippingWatcher
     end
 
     post '/zip' do
+      header 'Access-Control-Allow-Origin', '*'
       calc             = Calculator.new
       calc.cep_origem  = params[:zip][:cep_origem]
       calc.cep_destino = params[:zip][:cep_destino]
