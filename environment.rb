@@ -15,6 +15,5 @@ Application.configure do |config|
 end
 
 #db_config = YAML.load(ERB.new(File.read('config/database.yml')).result)[Application.config.env]
-db_config = YAML.load(ERB.new(File.read("config/database.yml")).result)
-ActiveRecord::Base.default_timezone = :utc
-ActiveRecord::Base.establish_connection(db_config)
+#ActiveRecord::Base.default_timezone = :utc
+#ActiveRecord::Base.establish_connection(db_config)
