@@ -14,6 +14,10 @@ Application.configure do |config|
   config.env      = ActiveSupport::StringInquirer.new(env.to_s)
 end
 
-#db_config = YAML.load(ERB.new(File.read('config/database.yml')).result)[Application.config.env]
-#ActiveRecord::Base.default_timezone = :utc
-#ActiveRecord::Base.establish_connection(db_config)
+begin
+db_config = YAML.load(ERB.new(File.read('config/database.yml')).result)[Application.config.env]
+ActiveRecord::Base.default_timezone = :utc
+ActiveRecord::Base.establish_connection(db_config)
+rescue
+  p 'hello'
+end
