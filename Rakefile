@@ -1,6 +1,5 @@
 #!/usr/bin/env rake
 require File.expand_path('../environment', __FILE__)
-require File.expand_path('../lib/shipping_watcher', __FILE__)
 
 task :rails_env do
 end
@@ -9,6 +8,15 @@ task :environment do
 end
 
 module Rails
+  def self.application
+    Struct.new(:config, :paths) do
+      def load_seed
+        require File.expand_path('../lib/shipping_watcher', __FILE__)
+        require File.expand_path('../db/seeds', __FILE__)
+      end
+    end.new(config, paths)
+  end
+
   def self.config
     require 'erb'
     db_config = YAML.load(ERB.new(File.read("config/database.yml")).result)
@@ -16,7 +24,7 @@ module Rails
   end
 
   def self.paths
-    {'db/migrate' => ["#{root}/db/migrate"]}
+    { 'db/migrate' => ["#{root}/db/migrate"] }
   end
 
   def self.env
@@ -28,5 +36,4 @@ module Rails
     File.dirname(__FILE__)
   end
 end
-
 Rake.load_rakefile "active_record/railties/databases.rake"
