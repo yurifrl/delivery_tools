@@ -1,5 +1,4 @@
 require 'grape'
-require 'rack/contrib'
 
 require_relative 'shipping_watcher/tracker'
 require_relative 'shipping_watcher/calculator'
