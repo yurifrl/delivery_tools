@@ -1,0 +1,1 @@
+Application.config.base_path = "http://delivery-tools.herokuapp.com"
