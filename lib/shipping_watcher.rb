@@ -9,7 +9,7 @@ module ShippingWatcher
   class API < Grape::API
     format :json
 
-    post  do
+    post do
       obj = Tracker.where(code: params[:tracking_code]).first
 
       if params[:action] == '1' && !obj.nil?
@@ -40,15 +40,24 @@ module ShippingWatcher
       end
     end
 
+    params do
+      requires :zip, type: Hash do
+        requires :cep_origem, type: String
+        requires :cep_destino, type: String
+        requires :items, type: Array do
+          requires :peso, type: Float
+          requires :comprimento, type: Float
+          requires :largura, type: Float
+          requires :altura, type: Float
+        end
+      end
+    end
     post '/zip' do
       header 'Access-Control-Allow-Origin', '*'
       calc             = Calculator.new
       calc.cep_origem  = params[:zip][:cep_origem]
       calc.cep_destino = params[:zip][:cep_destino]
-      calc.peso        = params[:zip][:peso]
-      calc.comprimento = params[:zip][:comprimento]
-      calc.largura     = params[:zip][:largura]
-      calc.altura      = params[:zip][:altura]
+      calc.items       = params[:zip][:items]
       calc.compute
     end
   end
