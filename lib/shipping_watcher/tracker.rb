@@ -1,4 +1,5 @@
 require 'foreigner'
+require 'active_record'
 require_relative 'shipper'
 require_relative 'status'
 require_relative 'tracker_log'
