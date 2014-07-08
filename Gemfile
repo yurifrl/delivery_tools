@@ -6,7 +6,6 @@ gem 'grape'
 gem 'pg'
 gem 'rake'
 gem 'foreigner'
-gem 'rack-contrib'
 gem 'correios-sro-xml'
 gem 'correios-frete', github: 'yurifrl/correios-frete'
 

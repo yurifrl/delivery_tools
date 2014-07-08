@@ -8,7 +8,6 @@ require_relative 'shipping_watcher/calculator'
 # /noinspection ALL
 module ShippingWatcher
   class API < Grape::API
-    use Rack::JSONP
     header 'Access-Control-Allow-Origin', '*'
     format :json
 
