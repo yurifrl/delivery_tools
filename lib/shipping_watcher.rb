@@ -8,6 +8,9 @@ require_relative 'shipping_watcher/calculator'
 module ShippingWatcher
   class API < Grape::API
     format :json
+    get do
+      {status: 'show'}
+    end
 
     post do
       obj = Tracker.where(code: params[:tracking_code]).first
