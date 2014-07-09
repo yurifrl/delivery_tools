@@ -1,7 +1,16 @@
 require 'grape'
+require 'rack/cors'
 
 require_relative 'shipping_watcher/tracker'
 require_relative 'shipping_watcher/calculator'
+
+# All support for cross-domain
+use Rack::Cors do
+  allow do
+    origins '*'
+    resource '*', headers: :any, methods: :get
+  end
+end
 
 # /noinspection RubyJumpError
 # /noinspection ALL
@@ -56,10 +65,6 @@ module ShippingWatcher
       end
     end
     post '/zip' do
-      header 'Access-Control-Allow-Origin', '*'
-      header 'Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS'
-      header 'Access-Control-Allow-Headers', 'X-Requested-With'
-      header 'Access-Control-Allow-Credentials', 'true'
       calc             = Calculator.new
       calc.cep_origem  = params[:zip][:cep_origem]
       calc.cep_destino = params[:zip][:cep_destino]
