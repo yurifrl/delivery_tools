@@ -4,7 +4,7 @@ require 'rack/cors'
 use Rack::Cors do
   allow do
     origins '*'
-    resource '*', headers: :any, methods: :get
+    resource '*', headers: :any, methods: [:get, :post]
   end
 end
 require File.expand_path('../environment', __FILE__)
