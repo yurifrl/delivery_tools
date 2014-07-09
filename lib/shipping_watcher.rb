@@ -1,16 +1,8 @@
 require 'grape'
-require 'rack/cors'
 
 require_relative 'shipping_watcher/tracker'
 require_relative 'shipping_watcher/calculator'
 
-# All support for cross-domain
-use Rack::Cors do
-  allow do
-    origins '*'
-    resource '*', headers: :any, methods: :get
-  end
-end
 
 # /noinspection RubyJumpError
 # /noinspection ALL
