@@ -17,7 +17,7 @@ class Tracker < ActiveRecord::Base
   after_initialize :load_shipper
 
   def get_status
-    self.status
+    {id: self.status.id, name: self.status.name}
   end
 
   def get_errors

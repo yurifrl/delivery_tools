@@ -8,39 +8,44 @@ require_relative 'shipping_watcher/calculator'
 # /noinspection ALL
 module ShippingWatcher
   class API < Grape::API
+    rescue_from :all
     format :json
     get do
       {status: 'show'}
     end
 
+    params do
+      requires :tracking_code, type: String
+      requires :shipper_id, type: Integer
+      requires :url, type: String
+      optional :login_id, type: String
+      optional :login_pass, type: String
+      optional :login_token, type: String
+      optional :action, type: Integer
+    end
     post do
       obj = Tracker.where(code: params[:tracking_code]).first
-
-      if params[:action] == '1' && !obj.nil?
-        # noinspection ALL
-        return {status: 'consult', object: obj.logs, details: 'last consult'}
-      end
-
+      # get logs
+      # noinspection ALL
+      return {success: true, details: 'consult', status: obj.logs} if params[:action] == 1 && !obj.nil?
       if obj
         obj.log!
         # noinspection ALL
-        return {status: 'consult', object: obj.get_status, details: 'last consult'}
+        return {success: true, details: 'consult', status: obj.get_status}
       end
-
       obj = Tracker.new do |tracker|
         tracker.code        = params[:tracking_code]
         tracker.shipper_id  = params[:shipper_id]
+        tracker.url         = params[:url]
         tracker.login_id    = params[:login_id]
         tracker.login_pass  = params[:login_pass]
         tracker.login_token = params[:login_token]
-        tracker.url         = params[:url]
       end
-
       if obj.try(:save)
         obj.log!
-        {status: 'success', object: obj.get_status, details: 'actual state of object'}
+        {success: true, details: 'actual state', status: obj.get_status}
       else
-        {status: 'failed', object: obj.get_status, details: obj.get_errors}
+        {success: false, details: obj.get_errors, status: obj.get_status}
       end
     end
 

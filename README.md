@@ -2,3 +2,23 @@
 delivery tools
 ==============
 delivery-tools.herokuapp.com
+
+##Use example of /
+{  
+  "tracking_code": "AA123456789BR",
+  "shipper_id": 1,
+  "url": "http://store1.lvh.me:3000/api/order_tracker",
+  "login_id": "ECT",
+  "login_pass": "SRO"
+}
+##Use example of /zip
+{
+    "zip": {
+        "cep_destino": "90619-900",
+        "cep_origem": "04094-050",
+        "items": [
+            {"altura": 2, "comprimento": 30, "largura": 15, "peso": 0.3 },
+            {"altura": 2, "comprimento": 30, "largura": 15, "peso": 0.3 }
+        ]
+    }
+}
