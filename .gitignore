@@ -1,5 +1,6 @@
 vendor/bundle
 .idea
+.bundle/
 .Gemfile.lock
 config/database.rb
 config/database.yml
