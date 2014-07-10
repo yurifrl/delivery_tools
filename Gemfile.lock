@@ -36,6 +36,7 @@ GEM
       debug_inspector (>= 0.0.1)
     bond (0.5.1)
     builder (3.2.2)
+    chronic (0.10.2)
     coderay (1.1.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
@@ -61,6 +62,9 @@ GEM
       rack-mount
       virtus (>= 1.0.0)
     hashie (3.1.0)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.9)
     ice_nine (0.11.0)
     json (1.8.1)
@@ -113,6 +117,9 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0.3)
       equalizer (~> 0.0.9)
+    whenever (0.9.2)
+      activesupport (>= 2.3.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
@@ -126,9 +133,11 @@ DEPENDENCIES
   correios-sro-xml
   foreigner
   grape
+  httparty
   pg
   rack-cors
   rack-test
   rake
   shotgun
   tux
+  whenever

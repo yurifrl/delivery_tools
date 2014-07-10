@@ -1,0 +1,833 @@
+Loading development environment
+Loading development environment
+Loading development environment
+Loading development environment
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003364dd8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000052fed38>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002a7e9a8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000051aaa18>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000037429c8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000017bf0d8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004004f20>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000035cf988>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004a9a908>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000465e178>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003fdad88>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000005105720>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004c9cb20>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000042a49b0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000020dacd0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000032035c0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004a6ea10>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000244ad48>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000005216330>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000422d388>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002f63bd0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000001dfc950>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000445c5c8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002396398>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000026a4aa8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002eac980>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000033b9630>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000042f94d8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000035e0698>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002d4c018>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003b41718>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000224f5e8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002463a28>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000447c940>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000030f4c38>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004fddbe0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003bacea0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000049922b8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000001c5e7d8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000040ad6c0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003a08dd8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004288e68>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003a04ad0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004be5f10>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000043e16e8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000024777a8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000036e4e90>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002b4ccb8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003ea0f58>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000004631718>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000019f9380>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000034b0700>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000001bcbde8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002a4ec58>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000019c7060>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000020f4518>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000003e6afe8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002053a28>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000242a7a0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000498e708>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000021a6128>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000033ee3f8>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002977730>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000005639a48>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000048714b0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x000000022f01a0>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002141688>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x0000000249b068>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment
+rake aborted!
+NoMethodError: private method `load_shipper' called for #<Tracker:0x00000002fd0960>
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activemodel-4.1.4/lib/active_model/attribute_methods.rb:432:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/attribute_methods.rb:208:in `method_missing'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:64:in `block in verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.4/lib/active_record/relation/delegation.rb:46:in `each'
+/home/yuri/workspace/ruby/shipping_watcher/lib/shipping_watcher/tracker.rb:63:in `verify_status_change'
+/home/yuri/workspace/ruby/shipping_watcher/lib/tasks/shipping_watcher.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => shipping_watcher:status_change
+(See full trace by running task with --trace)
+Loading development environment

@@ -36,4 +36,5 @@ module Rails
     File.dirname(__FILE__)
   end
 end
+import File.expand_path('../lib/tasks/shipping_watcher.rake', __FILE__)
 Rake.load_rakefile "active_record/railties/databases.rake"

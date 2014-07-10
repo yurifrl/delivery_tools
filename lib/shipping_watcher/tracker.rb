@@ -32,8 +32,38 @@ class Tracker < ActiveRecord::Base
     log.save
   end
 
+  def status_changed?
+    unless self.status_id
+      return false
+    end
+    # log if status changed
+    ap (self.status_id != @shipper.status) ? 'new != old (changed)' : 'new == old (no change)'
+    if self.status_id != @shipper.status
+      log!
+    else
+      return false
+    end
+    true
+  end
+
   def logs
     TrackerLog.where(tracker_id: id)
+  end
+
+  def status_name
+    self.status.name
+  end
+
+  def status_id
+    self.status.id
+  end
+
+  def self.verify_status_change
+    # THIS NOT WORK
+    Tracker.all.each do |tracker|
+      tracker.load_shipper
+      Notifier.request(tracker) if tracker.status_changed?
+    end
   end
 
   private
