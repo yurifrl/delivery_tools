@@ -3,7 +3,7 @@ delivery tools
 ==============
 delivery-tools.herokuapp.com
 
-##Use example of /
+##Use example of http://127.0.0.1:9393/
 {  
     "tracking_code": "AA123456789BR",
     "shipper_id": 1,

@@ -20,6 +20,7 @@ class Tracker < ActiveRecord::Base
 
   def load_shipper
     @shipper = shipper.to_class.new(login_id, login_pass, code)
+    self.update_attribute(:status_id, @shipper.status)
   end
 
   def new_status
