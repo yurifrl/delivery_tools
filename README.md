@@ -1,4 +1,4 @@
-[ ![Codeship Status for yurifrl/delivery_tools](https://www.codeship.io/projects/96de3150-e999-0131-0f9a-5e10f8b94a21/status)](https://www.codeship.io/projects/26209)
+[![Codeship Status for yurifrl/delivery_tools](https://www.codeship.io/projects/96de3150-e999-0131-0f9a-5e10f8b94a21/status)](https://www.codeship.io/projects/26209)
 delivery tools
 ==============
 delivery-tools.herokuapp.com
@@ -21,4 +21,10 @@ delivery-tools.herokuapp.com
             {"altura": 2, "comprimento": 30, "largura": 15, "peso": 0.3 }
         ]
     }
+}
+##Post to be sent
+{
+    "tracker_code": "AA123456789BR",
+    "status_id": "1",
+    "status_name": "delivered"
 }
