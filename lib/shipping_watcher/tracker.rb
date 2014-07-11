@@ -23,7 +23,7 @@ class Tracker < ActiveRecord::Base
   end
 
   def get_status
-    {id: self.status.id, name: self.status.name}
+    {id: self.status_id, name: self.status.name}
   end
 
   def get_errors
@@ -43,7 +43,6 @@ class Tracker < ActiveRecord::Base
       return false
     end
     # log if status changed
-    ap (self.status_id != @shipper.status) ? 'new != old (changed)' : 'new == old (no change)'
     if self.status_id != @shipper.status
       log!
     else
@@ -56,21 +55,6 @@ class Tracker < ActiveRecord::Base
     TrackerLog.where(tracker_id: id)
   end
 
-  def status_name
-    self.status.name
-  end
-
-  def status_id
-    self.status.id
-  end
-
-  def self.verify_status_change
-    # THIS NOT WORK
-    Tracker.all.each do |tracker|
-      tracker.load_shipper
-      Notifier.request(tracker) if tracker.status_changed?
-    end
-  end
   private
 
   def validate_request
