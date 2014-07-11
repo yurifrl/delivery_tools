@@ -11,7 +11,7 @@ class Tracker < ActiveRecord::Base
 
   validate :validate_url
   validate :validate_request
-  validates :login_id, :login_pass, :shipper_id, presence: true
+  validates :login_id, :login_pass, :shipper_id, :api_key, presence: true
   validates :code, presence: true, uniqueness: true
 
   after_initialize :load_shipper

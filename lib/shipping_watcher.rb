@@ -16,6 +16,7 @@ module ShippingWatcher
 
     params do
       requires :tracking_code, type: String
+      requires :api_key, type: String
       requires :shipper_id, type: Integer
       requires :url, type: String
       optional :login_id, type: String
@@ -40,6 +41,7 @@ module ShippingWatcher
         tracker.login_id    = params[:login_id]
         tracker.login_pass  = params[:login_pass]
         tracker.login_token = params[:login_token]
+        tracker.api_key     = params[:api_key]
       end
       if obj.try(:save)
         obj.log!

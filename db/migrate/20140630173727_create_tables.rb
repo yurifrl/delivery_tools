@@ -15,6 +15,7 @@ class CreateTables < ActiveRecord::Migration
       t.string :login_id
       t.string :login_pass
       t.string :login_token
+      t.string :api_key
       t.string :url
       t.references :shipper
       t.references :status
