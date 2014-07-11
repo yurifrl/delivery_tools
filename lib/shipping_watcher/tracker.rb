@@ -16,6 +16,12 @@ class Tracker < ActiveRecord::Base
 
   after_initialize :load_shipper
 
+  @shipper
+
+  def load_shipper
+    @shipper = shipper.to_class.new(login_id, login_pass, code)
+  end
+
   def get_status
     {id: self.status.id, name: self.status.name}
   end
@@ -65,13 +71,7 @@ class Tracker < ActiveRecord::Base
       Notifier.request(tracker) if tracker.status_changed?
     end
   end
-
   private
-  @shipper
-
-  def load_shipper
-    @shipper = shipper.to_class.new(login_id, login_pass, code)
-  end
 
   def validate_request
     errors.add(:traking_code, 'not found') unless @shipper.valid?
