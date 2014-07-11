@@ -3,9 +3,7 @@
 
 # Example:
 #
-if Rails.env == 'development'
-  set :output, 'cron_log.log'
-end
+set :output, 'config/cron_log.log'
 #
 every 2.minutes do
   rake 'shipping_watcher:status_change'

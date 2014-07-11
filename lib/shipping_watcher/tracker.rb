@@ -22,6 +22,10 @@ class Tracker < ActiveRecord::Base
     @shipper = shipper.to_class.new(login_id, login_pass, code)
   end
 
+  def new_status
+    @shipper.status
+  end
+
   def get_status
     {id: self.status_id, name: self.status.name}
   end
@@ -31,7 +35,6 @@ class Tracker < ActiveRecord::Base
   end
 
   def log!
-    self.status_id = @shipper.status
     log            = TrackerLog.new(@shipper.log)
     log.shipper_id = shipper_id
     log.tracker_id = id

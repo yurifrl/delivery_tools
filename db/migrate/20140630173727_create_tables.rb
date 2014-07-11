@@ -3,7 +3,7 @@ class CreateTables < ActiveRecord::Migration
   def change
     create_table :shippers do |t|
       t.string :name
-      t.string :status
+      t.boolean :active
       t.timestamps
     end
     create_table :statuses do |t|
@@ -11,7 +11,7 @@ class CreateTables < ActiveRecord::Migration
       t.timestamps
     end
     create_table :trackers do |t|
-      t.string :code
+      t.string :code, :null => false
       t.string :login_id
       t.string :login_pass
       t.string :login_token
@@ -39,5 +39,6 @@ class CreateTables < ActiveRecord::Migration
     add_index :tracker_logs, :shipper_id
     add_index :trackers, :shipper_id
     add_index :trackers, :status_id
+    add_index(:trackers, :code, unique: true)
   end
 end
