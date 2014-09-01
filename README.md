@@ -2,7 +2,7 @@
 
 delivery tools
 ==============
-(heroku pest practices)[http://pivotallabs.com/checklist-deploying-rails-app-heroku/]
+[heroku pest practices](http://pivotallabs.com/checklist-deploying-rails-app-heroku/)
 
 delivery-tools.herokuapp.com
 
