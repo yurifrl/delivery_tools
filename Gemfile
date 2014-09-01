@@ -11,6 +11,7 @@ gem 'correios-frete', github: 'yurifrl/correios-frete'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'whenever', :require => false
 gem 'httparty'
+gem 'unicorn'
 
 group :test do
   gem 'rack-test'
