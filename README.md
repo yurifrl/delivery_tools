@@ -1,10 +1,13 @@
 [![Codeship Status for yurifrl/delivery_tools](https://www.codeship.io/projects/96de3150-e999-0131-0f9a-5e10f8b94a21/status)](https://www.codeship.io/projects/26209)
+
 delivery tools
 ==============
-guide http://pivotallabs.com/checklist-deploying-rails-app-heroku/
+(heroku pest practices)[http://pivotallabs.com/checklist-deploying-rails-app-heroku/]
+
 delivery-tools.herokuapp.com
 
-##Use example of http://127.0.0.1:9393/
+##Usage example of /
+````json
 {  
     "tracking_code": "AA123456789BR",
     "shipper_id": 1,
@@ -12,7 +15,10 @@ delivery-tools.herokuapp.com
     "login_id": "ECT",
     "login_pass": "SRO"
 }
+````
+
 ##Use example of /zip
+````json
 {
     "zip": {
         "cep_destino": "90619-900",
@@ -23,9 +29,13 @@ delivery-tools.herokuapp.com
         ]
     }
 }
+````
+
 ##Post to be sent
+````json
 {
     "tracker_code": "AA123456789BR",
     "status_id": "1",
     "status_name": "delivered"
 }
+````
