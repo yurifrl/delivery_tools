@@ -12,6 +12,7 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'whenever', :require => false
 gem 'httparty'
 gem 'unicorn'
+gem 'rails_12factor', '~> 0.0.2'
 
 group :test do
   gem 'rack-test'
