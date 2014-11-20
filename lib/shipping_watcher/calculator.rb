@@ -6,7 +6,7 @@ end
 class Calculator
   attr_accessor :cep_origem, :cep_destino, :items
 
-  def compute()
+  def compute
     pacote = Correios::Frete::Pacote.new
 
     @items.each do |item|
@@ -14,6 +14,11 @@ class Calculator
       pacote.adicionar_item(item)
     end
     frete = Correios::Frete::Calculador.new(:cep_origem => @cep_origem, :cep_destino => @cep_destino, :encomenda => pacote)
+    frete.calcular(:sedex, :pac, :sedex_10)
+  end
+
+  def valid?
+    frete = Correios::Frete::Calculador.new(:cep_origem => @cep_origem, :cep_destino => @cep_destino)
     frete.calcular(:sedex, :pac, :sedex_10)
   end
 end

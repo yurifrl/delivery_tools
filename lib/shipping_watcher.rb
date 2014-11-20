@@ -35,13 +35,13 @@ module ShippingWatcher
         return {success: true, details: 'consult', status: obj.get_status}
       end
       obj = Tracker.new do |tracker|
-        tracker.code        = params[:tracking_code]
-        tracker.shipper_id  = params[:shipper_id]
-        tracker.url         = params[:url]
-        tracker.login_id    = params[:login_id]
-        tracker.login_pass  = params[:login_pass]
+        tracker.code = params[:tracking_code]
+        tracker.shipper_id = params[:shipper_id]
+        tracker.url = params[:url]
+        tracker.login_id = params[:login_id]
+        tracker.login_pass = params[:login_pass]
         tracker.login_token = params[:login_token]
-        tracker.api_key     = params[:api_key]
+        tracker.api_key = params[:api_key]
       end
       if obj.try(:save)
         obj.log!
@@ -64,11 +64,24 @@ module ShippingWatcher
       end
     end
     post '/zip' do
-      calc             = Calculator.new
-      calc.cep_origem  = params[:zip][:cep_origem]
+      calc = Calculator.new
+      calc.cep_origem = params[:zip][:cep_origem]
       calc.cep_destino = params[:zip][:cep_destino]
-      calc.items       = params[:zip][:items]
+      calc.items = params[:zip][:items]
       calc.compute
+    end
+
+    params do
+      requires :zip, type: Hash do
+        requires :cep_origem, type: String
+        requires :cep_destino, type: String
+      end
+    end
+    post '/valid_zip' do
+      calc = Calculator.new
+      calc.cep_origem = params[:zip][:cep_origem]
+      calc.cep_destino = params[:zip][:cep_destino]
+      calc.valid?
     end
   end
 end
