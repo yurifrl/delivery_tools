@@ -8,6 +8,7 @@ gem 'rake'
 gem 'foreigner'
 gem 'correios-sro-xml'
 gem 'correios-frete', github: 'yurifrl/correios-frete'
+gem 'correios-cep'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'whenever', :require => false
 gem 'httparty'

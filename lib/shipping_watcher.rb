@@ -72,16 +72,12 @@ module ShippingWatcher
     end
 
     params do
-      requires :zip, type: Hash do
-        requires :cep_origem, type: String
-        requires :cep_destino, type: String
-      end
+      requires :zip_code, type: String
     end
-    post '/valid_zip' do
+    post '/address_finder' do
       calc = Calculator.new
-      calc.cep_origem = params[:zip][:cep_origem]
-      calc.cep_destino = params[:zip][:cep_destino]
-      calc.valid?
+      calc.cep_origem = params[:zip_code]
+      calc.address_finder
     end
   end
 end

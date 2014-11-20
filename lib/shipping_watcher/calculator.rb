@@ -1,6 +1,11 @@
 require 'correios-frete'
+require 'correios-cep'
 Correios::Frete.configure do |config|
-  config.request_timeout = 9  # Configura o tempo de espera para 3 segundos
+  config.request_timeout = 3  # Configura o tempo de espera para 3 segundos
+end
+
+Correios::CEP.configure do |config|
+  config.request_timeout = 3 # It configures timeout to 3 seconds
 end
 
 class Calculator
@@ -17,8 +22,7 @@ class Calculator
     frete.calcular(:sedex, :pac, :sedex_10)
   end
 
-  def valid?
-    frete = Correios::Frete::Calculador.new(:cep_origem => @cep_origem, :cep_destino => @cep_destino)
-    frete.calcular(:sedex, :pac, :sedex_10)
+  def address_finder
+    Correios::CEP::AddressFinder.get @cep_origem
   end
 end
