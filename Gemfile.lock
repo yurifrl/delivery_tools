@@ -40,6 +40,9 @@ GEM
     coderay (1.1.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
+    correios-cep (0.2.0)
+      log-me (= 0.0.7)
+      nokogiri (~> 1.6)
     correios-sro-xml (0.1.1)
       log-me (~> 0.0.4)
       nokogiri (~> 1.5)
@@ -140,6 +143,7 @@ DEPENDENCIES
   awesome_print
   better_errors
   binding_of_caller
+  correios-cep
   correios-frete!
   correios-sro-xml
   foreigner

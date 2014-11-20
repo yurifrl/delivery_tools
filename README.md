@@ -31,11 +31,32 @@ http://delivery-tools.herokuapp.com/
 }
 ````
 
-##Post to be sent
+##Response
 ````json
 {
     "tracker_code": "AA123456789BR",
     "status_id": "1",
     "status_name": "delivered"
+}
+````
+
+##Use example of /address_finder
+````json
+{
+    "zip_code": "54250610"
+}
+````
+
+##Response
+````json
+{
+    "address": {
+      :address => "Rua Fernando Amorim",
+      :neighborhood => "Cavaleiro",
+      :city => "Jaboatão dos Guararapes",
+      :state => "PE",
+      :zipcode => "54250610",
+      :complement => ""
+    }
 }
 ````
