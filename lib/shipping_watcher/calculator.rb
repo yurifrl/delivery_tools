@@ -1,7 +1,7 @@
 require 'correios-frete'
 require 'correios-cep'
 Correios::Frete.configure do |config|
-  config.request_timeout = 3  # Configura o tempo de espera para 3 segundos
+  config.request_timeout = 3  # It configures timeout to 3 seconds
 end
 
 Correios::CEP.configure do |config|
