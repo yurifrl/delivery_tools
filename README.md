@@ -51,12 +51,12 @@ http://delivery-tools.herokuapp.com/
 ````json
 {
     "address": {
-      :address => "Rua Fernando Amorim",
-      :neighborhood => "Cavaleiro",
-      :city => "Jaboatão dos Guararapes",
-      :state => "PE",
-      :zipcode => "54250610",
-      :complement => ""
+      :"address" => "Rua Fernando Amorim",
+      :"neighborhood" => "Cavaleiro",
+      :"city" => "Jaboatão dos Guararapes",
+      :"state" => "PE",
+      :"zipcode" => "54250610",
+      :"complement" => ""
     }
 }
 ````
