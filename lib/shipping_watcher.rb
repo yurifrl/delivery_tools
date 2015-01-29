@@ -75,6 +75,7 @@ module ShippingWatcher
       requires :zip_code, type: String
     end
     post '/address_finder' do
+      status 200
       calc = Calculator.new
       calc.cep_origem = params[:zip_code]
       calc.address_finder
